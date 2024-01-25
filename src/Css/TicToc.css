@@ -1,0 +1,86 @@
+#game .game{
+    margin-left: 100px;
+    margin-top: 100px ;
+    border: 1px solid black;
+    height: 550px;
+    width: 425px;
+    border-radius: 10px;
+    box-shadow : 5px 5px 25px  black;
+  }
+  #game .result{
+    margin: 10px 0;
+  }
+  #game .result .display{
+    display: grid;
+    margin: 0px 100px;
+    background-color: wheat;
+    border: none;
+    height: 50px;
+    border: 2px solid black;
+    width: 200px;
+    font-size: 20px !important;
+    text-align: center;
+
+
+  }
+  #game .result .btn{
+    margin:0  140px ;
+    background: red;
+    color: white;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    width: 135px;
+    font-size: 15px !important;
+  }
+
+  #game {
+     box-sizing: border-box;
+     font-size: 50px;
+  }
+
+  #game  tr > td > input{
+    width: 100px !important;
+    height: 100px !important;
+  }
+  #game  td:last-child{
+    border-right: 10px solid transparent !important;
+    border: 1px !important;
+  }
+  #game td{
+    border-right: 10px solid black;
+    padding: 5px;
+  }
+  #game table{
+    border: 1px solid rgba(0, 0, 0, .5);
+    margin: 25px 0;
+    width: 150px;
+    border-radius: 5px;
+    height: 150px;
+    margin-left: 28px;
+ }
+ #game .tic > caption{
+     text-shadow: 12px 5px 15px lightsteelblue;
+     letter-spacing: 3px;
+     font-size: 25px;
+ }
+ #game tr > td > input{
+     width: 100%;
+     display: grid;
+     height: 100%;
+     background-color: transparent;
+    border: none;
+ }
+
+ .TicToc{
+    border: 1px solid rgba(0, 0, 0,0.2);
+    height: 500px;
+    width: 410px;
+    border-radius: 10px;
+ }
+ .game h4{
+    margin: 0px auto;
+    text-align: center;
+    margin-top: 15px;
+    border-bottom: 1px solid rgba(0, 0, 0, .5);
+}
